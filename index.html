@@ -12,7 +12,7 @@
   <body>
 
     <header>
-      <nav class="navbar bg-success navbar-expand-lg" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container">
           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="40" height="40">
             <defs>
@@ -54,7 +54,7 @@
             <div class="text-white text-center">
               <h1 class="display-1">Healthy, Delicious Meals Delivered to Your Door — Ready in Minutes</h1>
               <p class="lead">With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup</p>
-              <button class="btn btn-success" type="button">Get Started Today and Save Time!</button>
+              <button class="btn bg-primary" type="button">Get Started Today and Save Time!</button>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
               <p>Our easy-to-follow recipes mean you’ll have a mouthwatering, home-cooked meal ready in under 30 minutes—no kitchen skills required!</p>
             </div>
           </div>
-          <button class="btn btn-success" type="button">Pick Your Plan</button>
+          <button class="btn btn-primary" type="button">Pick Your Plan</button>
         </div>
       </section>
       
@@ -172,7 +172,44 @@
         <div>
           <div>
             <h2>Questions? We Have Answers</h2>
-
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Can I pause or cancel my subscription?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Absolutely!</strong> You can pause, modify, or cancel your subscription at any time through your account dashboard.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        How long do the meals last?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Our meals stay fresh in your fridge for up to 5 days. </strong> Each meal comes with a ‘best by’ date for optimal freshness.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Do you offer meals for specific diets?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Yes!</strong> We offer meals for a variety of diets, including vegetarian, keto, paleo, and gluten-free.
+      </div>
+    </div>
+  </div>
+</div>
             <!-- Include accordian component that best matches what is included in the provided screenshot.
 
             Text to include:
