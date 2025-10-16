@@ -15,7 +15,7 @@
   --bs-btn-border-color: var(--bs-primary);
   --bs-btn-hover-color: var(--bs-primary);
   --bs-btn-hover-bg: var(--bs-light);
-  --bs-btn-hover-border-color: var(--bs-light);
+  --bs-btn-hover-border-color: var(--bs-light)
 }
 
 
@@ -55,6 +55,10 @@ h1, h2, h3 {
 
 #cta .d-flex {
   height: 400px;
+}
+
+#cta {
+  height: 600px;
 }
 
 section:not(#hero):not(#cta){
